@@ -13,7 +13,8 @@ The purpose of this project is to study graph theory in my MATH 154 class during
   git pull origin main
   # Files downloaded
 
-  #Run:
+  #Compile & Run:
+  javac *.java
   java Main
   ```
 ### Useage:
