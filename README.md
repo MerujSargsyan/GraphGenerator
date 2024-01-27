@@ -1,9 +1,9 @@
-<h1> Graph Generator</h1>
-<h3>A simple program where the user can create vertecies which are automatically connected to the previously added vertecie.</h3>
+# Graph Generator
+### A simple program where the user can create vertecies which are automatically connected to the previously added vertex.
 
 The purpose of this project is to study graph theory in my MATH 154 class during my studies at UCSD.
 
-<h2>Installation:</h2>
+## Installation:
 <br>
  
   ```bash
@@ -16,7 +16,7 @@ The purpose of this project is to study graph theory in my MATH 154 class during
   #Run:
   java Main
   ```
-<h3>Useage:</h3>
+### Useage:
 <ul>
 <li> Click anywhere on the created display to form a vertex.</li>
 <li> Click anywhere else to generate another vertex and an edge to it.</li>
@@ -25,6 +25,5 @@ The purpose of this project is to study graph theory in my MATH 154 class during
 <li> Press space to switch between dark mode and light mode.</li>
 </ul>
 
-
-
+### Thank you very much and have fun! :)
 
