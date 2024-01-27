@@ -9,7 +9,7 @@ The purpose of this project is to study graph theory in my MATH 154 class during
   ```bash
   # Move to your desired repository
   cd /path/to/your/local/repository
-  git remote add origin 
+  git remote add origin https://github.com/MerujSargsyan/GraphGenerator
   git pull origin main
   # Files downloaded
 
