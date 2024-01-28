@@ -26,5 +26,13 @@ The purpose of this project is to study graph theory in my MATH 154 class during
 <li> Press space to switch between dark mode and light mode.</li>
 </ul>
 
+### What I Learned:
+<ul>
+ <li> Custom implementation of JPanel and existing java classes in general</li>
+ <li> Acquiring mouse input from a JPanel</li>
+ <li> Acquiring keybaord input</li>
+ <li> Using Graphics from javax.swing to draw on JPanel</li>
+</ul>
+
 ### Thank you very much and have fun! :)
 
