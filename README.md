@@ -17,7 +17,7 @@ The purpose of this project is to study graph theory in my MATH 154 class during
   javac *.java
   java Main
   ```
-### Useage:
+### Usage:
 <ul>
 <li> Click anywhere on the created display to form a vertex.</li>
 <li> Click anywhere else to generate another vertex and an edge to it.</li>
