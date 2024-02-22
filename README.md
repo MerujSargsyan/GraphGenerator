@@ -3,6 +3,8 @@
 
 The purpose of this project is to study graph theory in my MATH 154 class during my studies at UCSD.
 
+### Demo:
+Check out my demo at: [demo video](https://www.youtube.com/watch?v=EnMB6u2cEH4&ab_channel=MeruzhanSargsyan)
 ## Installation:
 <br>
  
