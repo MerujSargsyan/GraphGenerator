@@ -28,6 +28,7 @@ public class DrawP extends JPanel implements MouseListener, KeyListener {
     private final int KEY_DELETE = 8;
     private final int KEY_SPACE = 32;
     private final int KEY_S = 83;
+    private final int KEY_A = 65;
 
     private int vertexCount;
     private int edgeCount;
@@ -264,6 +265,7 @@ public class DrawP extends JPanel implements MouseListener, KeyListener {
     // connects it to an existing vertex
     @Override
     public void mousePressed(MouseEvent e) {
+        if(!Main.canEdit) return;
         Point p = getMousePosition(false);
         Vertex v = grid.usePoint(p);
         if(v == null) {
@@ -279,13 +281,16 @@ public class DrawP extends JPanel implements MouseListener, KeyListener {
 
     @Override
     public void keyPressed(KeyEvent e) {
+        if(!Main.canEdit) return;
         if(e.getKeyCode() == KEY_DELETE && shapes.size() > 0) {
             deleteRecent();
         } else if(e.getKeyCode() == KEY_SPACE) {
             changeDarkMode();
         } else if(e.getKeyCode() == KEY_S) {
             FileManager.outputToFile(shapes);        
-        }    
+        } else if(e.getKeyCode() == KEY_A) {
+            Analyzer.BFS(lines);
+        }
     }
 
     @Override

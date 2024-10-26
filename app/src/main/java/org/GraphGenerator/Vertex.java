@@ -6,6 +6,7 @@ public class Vertex extends Shape {
     // number of vertecies connected to this vertex by one edge
     public int neighborhood;
     public int label;
+    public boolean visited;
 
     public Vertex(int x, int y) {
         super(x, y);

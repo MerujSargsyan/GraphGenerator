@@ -6,7 +6,7 @@ import javax.swing.JFrame;
 public class Main {
     final public static int WINDOW_SIZE_X = 750;
     final public static int WINDOW_SIZE_Y = 500;
-
+    public static boolean canEdit = true;
 
     public static void main(String args[]) {
         JFrame window = new JFrame("Graph Generator");
